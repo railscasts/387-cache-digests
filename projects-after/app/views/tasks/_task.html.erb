@@ -1,0 +1,6 @@
+<% cache task do %>
+  <li>
+    <%= task.name %>
+    <%= link_to "rename", edit_task_path(task) %>
+  </li>
+<% end %>
